@@ -44,3 +44,4 @@ foreach ($item in $send) {
 }
 Write-Output $FinalArray | Sort-Object 'Number Of Emails' -Descending
 
+Write-Host "Jesus is Lord"
