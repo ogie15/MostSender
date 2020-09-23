@@ -1,5 +1,5 @@
 Clear-Host
-$send = Get-MessageTrace -RecipientAddress "globaladmin@ojokougbo.onmicrosoft.com" -StartDate 07/23/2020 -EndDate 08/02/2020 | Sort-Object -Property 'SenderAddress'
+$send = Get-MessageTrace -RecipientAddress "User@domain.com" -StartDate 07/23/2020 -EndDate 08/02/2020 | Sort-Object -Property 'SenderAddress'
  
 $NumberOfEmails = 1
 
@@ -43,7 +43,3 @@ foreach ($item in $send) {
     }
 }
 Write-Output $FinalArray | Sort-Object 'Number Of Emails' -Descending
-
-Write-Host "Jesus is Lord"
-
-Write-Host "Jesus is Lord ooo!!"
